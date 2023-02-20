@@ -1,0 +1,4 @@
+   62  ls A* > tempfile
+   63  wc -l < tempfile
+   64  rm -f tempfile
+   65  history > tempfile2

@@ -1,0 +1,67 @@
+    1  find . -name "AZZZZ"
+    2  find . -name "AZZZ"
+    3  find . -name "demofiles*"
+    4  mkdir UNIX_L1
+    5  cd UNIX _L1
+    6  cd UNIX_L1
+    7  mkdir demofiles
+    8  cd demofiles/
+    9  cd ..
+   10  emacs fileA
+   11  wc fileA 
+   12  emacs fileB
+   13  ls f*
+   14  emacs abcdefghijklmno.txt
+   15  cut -c 4-5,10  abcdefghijklmno.txt
+   16  emacs fruits.txt
+   17  emacs CherryPie.txt
+   18  paste -d, CherryPie.txt - < CherryPie.txt
+   19  echo 25 > inputfile
+   20  cd ..
+   21  mv UNIX_L1  UNIX_L2
+   22  mkdir UNIX_L1
+   23  cd UNIX_L1
+   24  mv ../UNIX_L2/demofiles/ .
+   25  cd demofiles/
+   26  emacs square.c
+   27  gcc -o square.x square.c
+   28  emacs square.c
+   29  gcc -o square.x square.c
+   30  ./square.x
+   31 cd ..
+   32  touch f1
+   33  touch f2
+   34  mkdir funfiles
+   35  mv funfiles funfile
+   36  touch aa
+   37  touch ab
+   38  mkdir adirectory
+   39  ls
+   40  rmdir funfile/
+   41  touch funfile
+   42  cp f* f*
+   43  cp a* a*
+   44  ls a*
+   45  ls
+   46  cd demofiles/
+   47  ls
+   48  echo "1234">AZZZ
+   49  ls -l
+   50  echo "12345" > Aqrst.txt 
+   51  echo "123456" > AFILE3 
+   52  echo "123456" > AFILE2
+   53  echo "12345" > Afile
+   54  echo "123" > ACE
+   55  echo "123" > ABD.txt
+   56  cd
+   57  find APROG.c
+   58  cd -
+   57  cp ~/was/rockpaperscissors.py .
+   58  gcc -o Aprog.x Aprog.c
+   59  ls -lrt
+   60  rm a.exe
+   61  ls -lrt
+   62  ls A* > tempfile
+   63  wc -l < tempfile
+   64  rm -f tempfile
+   65  history > tempfile2

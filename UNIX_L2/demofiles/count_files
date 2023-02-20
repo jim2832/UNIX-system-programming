@@ -1,0 +1,3 @@
+ls $* > tempfile
+wc -l < tempfile
+rm -f tempfile
