@@ -1,4 +1,4 @@
-   62  ls A* > tempfile
-   63  wc -l < tempfile
-   64  rm -f tempfile
-   65  history > tempfile2
+ 1080  cat mypath 
+ 1081  open mypath 
+ 1082  cat tempfile
+ 1083  history > tempfile2

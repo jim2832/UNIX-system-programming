@@ -1,0 +1,4 @@
+Command 'ehco' not found, did you mean:
+  command 'ehlo' from snap ehlo (0.0.83)
+  command 'echo' from deb coreutils (8.32-4.1ubuntu1)
+See 'snap info <snapname>' for additional versions.

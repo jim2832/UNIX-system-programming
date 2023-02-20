@@ -1,0 +1,3 @@
+pwd
+ls $* | wc -l
+find . -name "*.c" | wc

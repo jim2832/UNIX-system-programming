@@ -1,67 +1,1000 @@
-    1  find . -name "AZZZZ"
-    2  find . -name "AZZZ"
-    3  find . -name "demofiles*"
-    4  mkdir UNIX_L1
-    5  cd UNIX _L1
-    6  cd UNIX_L1
-    7  mkdir demofiles
-    8  cd demofiles/
-    9  cd ..
-   10  emacs fileA
-   11  wc fileA 
-   12  emacs fileB
-   13  ls f*
-   14  emacs abcdefghijklmno.txt
-   15  cut -c 4-5,10  abcdefghijklmno.txt
-   16  emacs fruits.txt
-   17  emacs CherryPie.txt
-   18  paste -d, CherryPie.txt - < CherryPie.txt
-   19  echo 25 > inputfile
-   20  cd ..
-   21  mv UNIX_L1  UNIX_L2
-   22  mkdir UNIX_L1
-   23  cd UNIX_L1
-   24  mv ../UNIX_L2/demofiles/ .
-   25  cd demofiles/
-   26  emacs square.c
-   27  gcc -o square.x square.c
-   28  emacs square.c
-   29  gcc -o square.x square.c
-   30  ./square.x
-   31 cd ..
-   32  touch f1
-   33  touch f2
-   34  mkdir funfiles
-   35  mv funfiles funfile
-   36  touch aa
-   37  touch ab
-   38  mkdir adirectory
-   39  ls
-   40  rmdir funfile/
-   41  touch funfile
-   42  cp f* f*
-   43  cp a* a*
-   44  ls a*
-   45  ls
-   46  cd demofiles/
-   47  ls
-   48  echo "1234">AZZZ
-   49  ls -l
-   50  echo "12345" > Aqrst.txt 
-   51  echo "123456" > AFILE3 
-   52  echo "123456" > AFILE2
-   53  echo "12345" > Afile
-   54  echo "123" > ACE
-   55  echo "123" > ABD.txt
-   56  cd
-   57  find APROG.c
-   58  cd -
-   57  cp ~/was/rockpaperscissors.py .
-   58  gcc -o Aprog.x Aprog.c
-   59  ls -lrt
-   60  rm a.exe
-   61  ls -lrt
-   62  ls A* > tempfile
-   63  wc -l < tempfile
-   64  rm -f tempfile
-   65  history > tempfile2
+   84  ls
+   85  cd /home/jim/Desktop/Advanced_Computer_Networks/HW4/TCPIP_HW4
+   86  ls
+   87  git log
+   88  git status
+   89  git pull
+   90  make
+   91  code
+   92  wireshark -h
+   93  sudo apt-get install wireshark
+   94  ifconfig 
+   95  sudo wireshark
+   96  sudo ./arp -l -a
+   97  sudo ./arp -q 192.168.190.2
+   98  sudo ./arp 00:11:22:33:44:55 192.168.190.2
+   99  sudo ./arp -l -a
+  100  sudo ./arp 00:11:22:33:44:55 192.168.190.2
+  101  git pull
+  102  sudo ./arp 00:11:22:33:44:55 192.168.190.2
+  103  sudo ./arp -l -a
+  104  make
+  105  sudo ./arp 0
+  106  sudo ./arp -f 192.168.190.2
+  107  sudo ./arp 00:11:22:33:44:55 192.168.190.2
+  108  make
+  109  sudo ./arp 00:11:22:33:44:55 192.168.190.2
+  110  sudo ./arp -l -a
+  111  sudo ./arp 00:11:22:33:44:55 192.168.190.128
+  112  arp -n
+  113  ip -s -s neigh flush all
+  114  arp -n
+  115  sudo ip -s -s neigh flush all
+  116  arp -n
+  117  sudo ./arp 00:11:22:33:44:55 192.168.190.128
+  118  sudo ./arp 00:11:22:33:44:55 192.168.190.2
+  119  sudo ./arp -l -a
+  120  sudo ./arp 00:11:22:33:44:55 192.168.190.128
+  121  cd ~/Desktop/Advanced_Computer_Networks/HW4/參考
+  122  ls
+  123  make
+  124  sudo ./arp 00:11:22:33:44:55 192.168.190.128
+  125  vim main.c
+  126  sudo ./arp 00:11:22:33:44:55 192.168.190.128
+  127  arp -n
+  128  sudo ./arp 00:11:22:33:44:55 192.168.190.128
+  129  sudo ./arp -l -a
+  130  sudo ./arp 00:11:22:33:44:55 192.168.190.128
+  131  cd ..
+  132  cd TCPIP_HW4/
+  133  make
+  134  sudo ./arp 00:11:22:33:44:55 192.168.190.128
+  135  sudo ./arp 00:11:22:33:44:55 192.168.190.1
+  136  sudo wireshark
+  137  sudo ./arp -q 192.168.190.2
+  138  cd ~/Desktop/Advanced_Computer_Networks/HW4/TCPIP_HW4
+  139  make
+  140  sudo ./arp -q 192.168.190.2
+  141  code
+  142  cd /home/jim/Desktop/Advanced_Computer_Networks/HW4/TCPIP_HW4
+  143  ls
+  144  make
+  145  sudo ./arp 
+  146  sudo ./arp 00:11:22:33:44:55 192.168.190.2
+  147  sudo ./arp 00:11:22:33:44:55 192.168.190.1
+  148  sudo ./arp 00:11:22:33:44:55 192.168.190.2
+  149  gti clone https://github.com/jim2832/Advanced_Computer_Networks.git
+  150  git clone https://github.com/jim2832/Advanced_Computer_Networks.git
+  151  pwd
+  152  cd /home/jim/Desktop/Advanced_Computer_Networks/HW4/TCPIP_HW4
+  153  pwd
+  154  make
+  155  sudo ./arp 00:11:22:33:44:55 
+  156  sudo ./arp -l -a
+  157  sudo ./arp 00:11:22:33:44:55 192.168.190.128
+  158  cd ~/Desktop/Advanced_Computer_Networks/HW4/TCPIP_HW4
+  159  ls
+  160  make
+  161  sudo ./arp -q 192.168.190.128
+  162  sudo wireshark 
+  163  ls
+  164  cd Desktop
+  165  ls
+  166  cd Advanced_Computer_Networks/
+  167  git status
+  168  git pull
+  169  ls
+  170  sudo apt-get speedtest
+  171  sudo apt-get install speedtest
+  172  sudo apt-get install git
+  173  sudo apt-get install speedtest
+  174  speedtest
+  175  sudo apt-get install speedtest-cli
+  176  ping localhost
+  177  ping pchome.com.tw
+  178  sudo /etc/init.d/networking restart
+  179  cd /etc
+  180  ls
+  181  cd init.d
+  182  ls
+  183  cd ..
+  184  cd init
+  185  ls
+  186  cd ..
+  187  sudo bash
+  188  sudo vim /etc/resolv.conf 
+  189  sudo vim /etc/network/interfaces
+  190  cd network
+  191  ls
+  192  cd ..
+  193  ls
+  194  vim resolv.conf 
+  195  cd /etc
+  196  sudo vim resolv.conf 
+  197  ls
+  198  cd network
+  199  ls
+  200  sudo apt-get install speedtest
+  201  sudo apt-get install speedtest-cli
+  202  sudo apt-get install speedtest
+  203  cd Desktop
+  204  ls
+  205  cd Advanced_Computer_Networks/
+  206  git status
+  207  git pull
+  208  ls
+  209  cd HW6
+  210  ls
+  211  code main.c 
+  212  cd ~
+  213  cd Desktop
+  214  git clone https://github.com/jim2832/Advanced_Computer_Networks.git
+  215  cd Advanced_Computer_Networks/
+  216  ls
+  217  code
+  218  speedtest
+  219  sudo apt install ibus-chewing
+  220  reboot
+  221  git status
+  222  git add .
+  223  git commit -m "update"
+  224  git config --global user.email jim880705@gmail.com
+  225  git config --global user.name jim2832
+  226  git pull
+  227  ls
+  228  cd Desktop
+  229  ls
+  230  git clone https://github.com/jim2832/Advanced_Computer_Networks.git
+  231  code
+  232  cd Advanced_Computer_Networks/
+  233  cd HW6
+  234  ls
+  235  gcc main.c -o main
+  236  make
+  237  touch makefile
+  238  ls
+  239  vim makefile 
+  240  make
+  241  sudo ./prog 3 8.8.8.8
+  242  vim makefile 
+  243  make
+  244  sudo ./prog 3 8.8.8.8
+  245  sudo ./prog 9 8.8.8.8
+  246  make
+  247  sudo ./prog 9 8.8.8.8
+  248  make
+  249  sudo ./prog 9 8.8.8.8
+  250  make
+  251  sudo ./prog 9 8.8.8.8
+  252  sudo ./prog 10 8.8.8.8
+  253  sudo ./prog 100 8.8.8.8
+  254  make
+  255  sudo ./prog 100 8.8.8.8
+  256  make
+  257  sudo ./prog 100 8.8.8.8
+  258  make
+  259  sudo ./prog 100 8.8.8.8
+  260  make
+  261  sudo ./prog 100 8.8.8.8
+  262  git pull
+  263  make
+  264  sudo ./prog 100 8.8.8.8
+  265  make
+  266  sudo ./prog 100 8.8.8.8
+  267  sudo ./prog
+  268  make
+  269  sudo ./prog 10 8.8.8.8
+  270  make
+  271  sudo ./prog 100 8.8.8.8
+  272  sudo ./prog 10 8.8.8.8
+  273  make
+  274  sudo ./prog 10 8.8.8.8
+  275  make
+  276  sudo ./prog 10 8.8.8.8
+  277  make
+  278  sudo ./prog 10 8.8.8.8
+  279  make
+  280  sudo ./prog 10 8.8.8.8
+  281  cd /home/jim/Desktop/Advanced_Computer_Networks/HW6
+  282  git pull
+  283  git sta
+  284  git status
+  285  make
+  286  sudo ./prog 10 8.8.8.8
+  287  make
+  288  sudo ./prog 10 8.8.8.8
+  289  make
+  290  sudo ./prog 10 8.8.8.8
+  291  make
+  292  sudo ./prog 10 8.8.8.8
+  293  sudo ./prog 100 8.8.8.8
+  294  sudo ./prog 10 8.8.8.8
+  295  make
+  296  sudo ./prog 10 8.8.8.8
+  297  make
+  298  sudo ./prog 10 8.8.8.8
+  299  make
+  300  sudo ./prog 10 8.8.8.8
+  301  make
+  302  sudo ./prog 10 8.8.8.8
+  303  sudo ./prog 100 8.8.8.8
+  304  make
+  305  sudo ./prog 100 8.8.8.8
+  306  sudo ./prog -h
+  307  make
+  308  sudo ./prog -h
+  309  make
+  310  sudo ./prog 100 8.8.8.8
+  311  sudo ./prog -h
+  312  make
+  313  sudo ./prog -h
+  314  make
+  315  sudo ./prog 100 8.8.8.8
+  316  make
+  317  sudo ./prog 100 8.8.8.8
+  318  sudo ./prog 90 8.8.8.8
+  319  make
+  320  sudo ./prog 100 8.8.8.8
+  321  sudo ./prog 90 8.8.8.8
+  322  make
+  323  sudo ./prog 90 8.8.8.8
+  324  gcc ref.c -o prog
+  325  sudo ./prog 10 8.8.8.8
+  326  make
+  327  sudo ./prog 10 8.8.8.8
+  328  sudo ./prog 99 8.8.8.8
+  329  make
+  330  sudo ./prog 99 8.8.8.8
+  331  make
+  332  sudo ./prog 15 8.8.8.8
+  333  make
+  334  sudo ./prog 15 8.8.8.8
+  335  sudo ./prog 50 8.8.8.8
+  336  make
+  337  sudo ./prog 50 8.8.8.8
+  338  make
+  339  sudo ./prog 50 8.8.8.8
+  340  make
+  341  sudo ./prog 50 8.8.8.8
+  342  make
+  343  sudo ./prog 50 8.8.8.8
+  344  git pull
+  345  cd /etc
+  346  cd services
+  347  ls
+  348  cd service
+  349  cd hostname
+  350  cat hostname 
+  351  cat host.conf 
+  352  traceroute -h
+  353  sudo apt-get install traceroute
+  354  traceroute 8.8.8.8
+  355  ls
+  356  cd Desktop/
+  357  cd Advanced_Computer_Networks/
+  358  ls
+  359  cat 高等電腦網路_期中考.pdf 
+  360  cat 高等 -n 電腦網路_期中考.pdf 
+  361  cd HW6
+  362  cat main.c
+  363  cat -n main.c
+  364  history 
+  365  date
+  366  date +2022
+  367  date 2022
+  368  cal
+  369  sudo apt install ncal
+  370  cal
+  371  sudo pat-get install neofetch
+  372  sudo apt-get install neofetch
+  373  neofetch 
+  374  cat ~/.zshrc
+  375  neofetch 
+  376  git pull
+  377  git rebase
+  378  cd /home/jim/Desktop/Advanced_Computer_Networks/HW6
+  379  make
+  380  sudo ./prog 10 8.8.8.8
+  381  sudo ./prog -h
+  382  make
+  383  sudo ./prog -h
+  384  make
+  385  sudo ./prog 10 8.8.8.8
+  386  cd /
+  387  cd etc
+  388  ;s
+  389  ls
+  390  cat resolv.conf 
+  391  vim resolv.conf 
+  392  cd /etc
+  393  sudo vim resolv.conf 
+  394  cd /etc
+  395  cat resolv.conf 
+  396  cd ..
+  397  git pull
+  398  git status
+  399  cd ..
+  400  git add .
+  401  git commit -m "221122 update"
+  402  git push
+  403  git config --global jim2832
+  404  git config
+  405  git config --global --list
+  406  git push
+  407  cd ~/.ssh
+  408  ssh-keygen
+  409  cat ~/.ssh/id_rsa.pub
+  410  cd /
+  411  ls
+  412  ls -a
+  413  cd ssh
+  414  cd home
+  415  cd jim
+  416  ls
+  417  ls -a
+  418  cd .ssh
+  419  cd /home/jim/.ssh/id_rsa
+  420  ls
+  421  ls -a
+  422  cd .gitconfig
+  423  cd ~/.ssh
+  424  cd /
+  425  mkdir .ssh
+  426  ssh-keygen  
+  427  ssh-keygen
+  428  cd ..
+  429  git init
+  430  git remote
+  431  git push
+  432  git push -u origin master
+  433  git status
+  434  ls
+  435  ls -a
+  436  cd ..
+  437  ls -a
+  438  rm git
+  439  rm git.pub 
+  440  ls
+  441  git status
+  442  git push
+  443  cd /home/jim
+  444  ls
+  445  cat new
+  446  cat new.pub 
+  447  cd /home
+  448  ls
+  449  cd jim
+  450  ls -a
+  451  cat new.pub 
+  452  git pull
+  453  ls
+  454  rm new
+  455  rm new.pub 
+  456  mv pass /home/jim
+  457  mv pass.pub /home/jim
+  458  cd ..
+  459  ls
+  460  cd Downloads/
+  461  ls
+  462  mv Python-3.11.0.tar.xz /
+  463  mv Python-3.11.0.tar.xz /usr/local/
+  464  sudo mv Python-3.11.0.tar.xz /usr/local/
+  465  cd /
+  466  ls
+  467  cd usr/
+  468  ls
+  469  cd local/
+  470  ls
+  471  tar -jxvf Python-3.11.0.tar.xz
+  472  tar Python-3.11.0.tar.xz
+  473  rat Python-3.11.0.tgz 
+  474  tar Python-3.11.0.tgz 
+  475  tar --help
+  476  cd Downloads/
+  477  mv Python-3.11.0.tgz /usr/local/
+  478  suod mv Python-3.11.0.tgz /usr/local/
+  479  sudo mv Python-3.11.0.tgz /usr/local/
+  480  git clone https://github.com/jim2832/Advanced_Computer_Networks.git
+  481  git clone https://github.com/jim2832/Paper.git
+  482  git clone git@github.com:jim2832/Paper.git
+  483  ls
+  484  git config --global user.name jim232
+  485  git config --global user.name jim2832
+  486  git config --global user.email jim880705@gmail.com
+  487  git clone git@github.com:jim2832/Paper.git
+  488  ssh-keygen
+  489  ls
+  490  cat pass.pub 
+  491  more pass.pub 
+  492  git clone git@github.com:jim2832/Paper.git
+  493  git clone https://github.com/jim2832/Paper.git
+  494  pwd
+  495  git clone https://github.com/jim2832/image_recognition.git
+  496  code image_recognition/
+  497  cd image_recognition/
+  498  ls
+  499  python video.py 
+  500  sudo apt update
+  501  sudo apt install software-properties-common
+  502  sudo add-apt-repository ppa:deadsnakes/ppa
+  503  sudo apt install python3.9
+  504  python --version
+  505  python
+  506  ls
+  507  sudo apt update
+  508  sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget
+  509  cd ~/Downloads
+  510  wget https://www.python.org/ftp/python/3.8.0/Python-3.8.0.tgz
+  511  tar -xf Python-3.8.0.tgz
+  512  cd Python-3.8.0
+  513  ./configure --enable-shared
+  514  make
+  515  sudo make altinstall
+  516  python3.8 --version
+  517  python
+  518  python --version
+  519  python3 --version
+  520  $ sudo apt install python3-pip
+  521  sudo apt install python3-pip
+  522  python3.8 -m pip install pip
+  523  python3
+  524  python3 --version
+  525  python3 video.py 
+  526  git pull
+  527  cd /
+  528  cd usr/local/
+  529  tar -xf Python-3.11.0.tgz
+  530  python3 -h
+  531  python3 --version
+  532  ls
+  533  python3.9 --version
+  534  cd /home/jim/Desktop/image_recognition
+  535  ls
+  536  git pull
+  537  git clone https://github.com/jim2832/image_recognition.git
+  538  cd ..
+  539  ls
+  540  cd ~/Desktop
+  541  ls
+  542  git clone https://github.com/jim2832/image_recognition.git
+  543  ls
+  544  git status
+  545  git pull
+  546  git add .
+  547  git commit -m "221128 update"
+  548  git push
+  549  cd ..
+  550  ls
+  551  git pull
+  552  make
+  553  code
+  554  sudo pat-get update
+  555  sudo apt-get update
+  556  sudo apt-get install code
+  557  sudo apt-get install libpcap-dev
+  558  ls
+  559  make
+  560  ifconfig 
+  561  sudo ./ipscanner -i ens33 100
+  562  sudo ./ipscanner -i ens33 -t 100
+  563  cd ../..
+  564  ls
+  565  cd ~
+  566  cd Desktop
+  567  ls
+  568  git clone https://github.com/jim2832/Advanced_Computer_Networks.git
+  569  ad Advanced_Computer_Networks/
+  570  ls
+  571  ccd Advanced_Computer_Networks/
+  572  cd Advanced_Computer_Networks/
+  573  ls
+  574  cd HW7
+  575  ls
+  576  cd 參考/
+  577  ls
+  578  sudo ./ipscanner -i ens33 -t 100
+  579  tcpdump -nn -i eth0 icmp
+  580  tcpdump -nn -i ens33 icmp
+  581  sudo tcpdump -nn -i ens33 icmp
+  582  tcpdump
+  583  sudo tcpdump
+  584  cd ..
+  585  git pull
+  586  git add .
+  587  git commit -m "221130 update"
+  588  git push
+  589  git add .
+  590  git commit -m "221130 update"
+  591  git push
+  592  git pull
+  593  ls
+  594  git log
+  595  git pul
+  596  git pull
+  597  cd ~
+  598  cd Desktop
+  599  ls
+  600  git clone https://github.com/jim2832/Advanced_Computer_Networks.git
+  601  cd /home/jim/Desktop/Advanced_Computer_Networks/HW7/makefile
+  602  /home/jim/Desktop/Advanced_Computer_Networks/HW7
+  603  ls
+  604  cd Desktop
+  605  cd A
+  606  cd Advanced_Computer_Networks/
+  607  ls
+  608  cd HW7
+  609  ls
+  610  make
+  611  cd 參考/
+  612  ls
+  613  make
+  614  sudo ./ipscanner -i ens33 -t 100
+  615  sudo ./ipscanner -i ens33 -t 50
+  616  cd ..
+  617  make
+  618  gcc -o main main.c
+  619  sudo ./main
+  620  gcc -o main main.c
+  621  sudo ./main
+  622  make
+  623  gcc -o main main.c
+  624  sudo ./main
+  625  gcc -o main main.c
+  626  sudo ./main
+  627  gcc -o main main.c
+  628  sudo ./main
+  629  gcc -o main main.c
+  630  sudo ./main
+  631  gcc -o main main.c
+  632  sudo ./main
+  633  gcc -o main main.c
+  634  sudo ./main
+  635  gcc -o main main.c
+  636  sudo ./main
+  637  gcc -o main main.c
+  638  sudo ./main
+  639  gcc -o main main.c
+  640  sudo ./main
+  641  make
+  642  cd 參考/
+  643  ls
+  644  make
+  645  sudo ./ipscanner -i ens33 -t 100
+  646  cd ..
+  647  make
+  648  ls
+  649  make
+  650  git rebase
+  651  cd Desktop
+  652  git clone https://github.com/jim2832/Advanced_Computer_Networks.git
+  653  cd Advanced_Computer_Networks/
+  654  ls
+  655  cd HW7
+  656  ls
+  657  make
+  658  sudo ./ipscanner -i ens33 -t 100
+  659  make
+  660  sudo ./ipscanner -i ens33 -t 100
+  661  ifconfig 
+  662  make
+  663  sudo ./ipscanner -i ens33 -t 100
+  664  make
+  665  sudo ./ipscanner -i ens33 -t 100
+  666  make
+  667  sudo ./ipscanner -i ens33 -t 100
+  668  make
+  669  sudo ./ipscanner -i ens33 -t 100
+  670  make
+  671  sudo ./ipscanner -i ens33 -t 100
+  672  make
+  673  make
+  674  sudo ./ipscanner -i ens33 -t 100
+  675  make
+  676  sudo ./ipscanner -i ens33 -t 100
+  677  make
+  678  sudo ./ipscanner -i ens33 -t 100
+  679  make
+  680  sudo ./ipscanner -i ens33 -t 1000
+  681  sudo ./ipscanner -i ens33 -t 10000000
+  682  sudo wireshark
+  683  make
+  684  sudo ./ipscanner -i ens33 -t 1000
+  685  git pull
+  686  cd 參考
+  687  ls
+  688  make
+  689  sudo ./ipscanner -i ens33 -t 1000
+  690  cd ..
+  691  make
+  692  sudo ./ipscanner -i ens33 -t 1000
+  693  make
+  694  sudo ./ipscanner -i ens33 -t 1000
+  695  make
+  696  sudo ./ipscanner -i ens33 -t 1000
+  697  make
+  698  sudo ./ipscanner -i ens33 -t 1000
+  699  sudo ./ipscanner -i ens33 -t 1000000
+  700  sudo ./ipscanner -i ens33 -t 10000
+  701  sudo ./ipscanner -i ens33 -t 2000
+  702  make
+  703  sudo ./ipscanner -i ens33 -t 2000
+  704  make
+  705  sudo ./ipscanner -i ens33 -t 2000
+  706  make
+  707  sudo ./ipscanner -i ens33 -t 2000
+  708  make
+  709  sudo ./ipscanner -i ens33 -t 2000
+  710  make
+  711  sudo ./ipscanner -i ens33 -t 2000
+  712  make
+  713  sudo ./ipscanner -i ens33 -t 2000
+  714  make
+  715  sudo ./ipscanner -i ens33 -t 2000
+  716  make
+  717  sudo ./ipscanner -i ens33 -t 2000
+  718  make
+  719  sudo ./ipscanner -i ens33 -t 2000
+  720  sudo wireshark 
+  721  make
+  722  sudo ./ipscanner -i ens33 -t 100
+  723  make
+  724  sudo ./ipscanner -i ens33 -t 100
+  725  cd Desktop
+  726  cd Advanced_Computer_Networks/
+  727  cd HW7
+  728  ls
+  729  make
+  730  sudo ./ipscanner -i ens33 -t 2000
+  731  make
+  732  sudo ./ipscanner -i ens33 -t 2000
+  733  make
+  734  sudo ./ipscanner -i ens33 -t 2000
+  735  make
+  736  sudo ./ipscanner -i ens33 -t 2000
+  737  make
+  738  sudo ./ipscanner -i ens33 -t 2000
+  739  sudo wireshark 
+  740  cd Desktop/
+  741  git clone https://github.com/jim2832/Computer_Architecture.git
+  742  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 
+  743  sudo apt install -y -f ./google-chrome-stable_current_amd64.deb 
+  744  cd ~/Downloads 
+  745  ls
+  746  sudo dpkg -i code_1.73.1-1667967334_amd64.deb 
+  747  code
+  748  ifconfig 
+  749  sock -i -s -P4 -p2 -r256 7777
+  750  git pull
+  751  git clone https://github.com/jim2832/Bluetooth_Collision.git
+  752  git pull
+  753  git status
+  754  touch problem1.cpp
+  755  speedtest
+  756  cd Dow
+  757  cd Downloads/
+  758  sudo dpkg -i code_1.74.0-1670260027_amd64.deb 
+  759  javac Project1.java 
+  760  sudo apt install default-jdk
+  761  javac Project1.java 
+  762  javac Project1.java
+  763  sudo apt-get install openjdk-7-jdk
+  764  javac Project1.java
+  765  java Project1
+  766  cd /home/jim/Desktop/Bluetooth_Collision
+  767  ls
+  768  g++ -o problem1 problem1.cpp 
+  769  ./problem1 
+  770  g++ -o problem1 problem1.cpp 
+  771  ./problem1 
+  772  g++ -o problem1 problem1.cpp 
+  773  ./problem1 
+  774  g++ -o problem1 problem1.cpp 
+  775  ./problem1 
+  776  g++ -o problem1 problem1.cpp 
+  777  ./problem1 
+  778  g++ -o problem1 problem1.cpp 
+  779  ./problem1 
+  780  g++ -o problem1 problem1.cpp 
+  781  ./problem1 
+  782  g++ -o problem1 problem1.cpp 
+  783  ./problem1 
+  784  g++ -o test test.cpp
+  785  ./test
+  786  g++ -o test test.cpp
+  787  ./test
+  788  g++ -o test test.cpp
+  789  ./test
+  790  g++ -o test test.cpp
+  791  ./test
+  792  g++ -o test test.cpp
+  793  ./test
+  794  g++ -o test test.cpp
+  795  ./test
+  796  g++ -o test test.cpp
+  797  ./test
+  798  g++ -o test test.cpp
+  799  ./test
+  800  df
+  801  g++ -o problem1 problem1.cpp 
+  802  ./problem1 
+  803  g++ -o test test.cpp
+  804  ./test
+  805  g++ -o test test.cpp
+  806  ./test
+  807  g++ -o problem1 problem1.cpp 
+  808  ./problem1 
+  809  g++ -o problem1 problem1.cpp 
+  810  ./problem1 
+  811  g++ -o problem1 problem1.cpp 
+  812  ./problem1 
+  813  g++ -o problem1 problem1.cpp 
+  814  ./problem1 
+  815  g++ -o problem1 problem1.cpp 
+  816  ./problem1 
+  817  g++ -o problem1 problem1.cpp 
+  818  ./problem1 
+  819  g++ -o problem1 problem1.cpp 
+  820  ./problem1 
+  821  g++ -o problem1 problem1.cpp 
+  822  ./problem1 
+  823  g++ -o problem1 problem1.cpp 
+  824  ./problem1 
+  825  g++ -o problem1 problem1.cpp 
+  826  ./problem1 
+  827  g++ -o test test.cpp
+  828  ./test
+  829  g++ -o problem1 problem1.cpp 
+  830  ./test
+  831  ./problem1 
+  832  g++ -o problem1 problem1.cpp 
+  833  ./problem1 
+  834  g++ -o problem1 problem1.cpp 
+  835  ./problem1 
+  836  g++ -o test test.cpp
+  837  ./test
+  838  g++ -o problem1 problem1.cpp 
+  839  ./problem1 
+  840  g++ -o problem1 problem1.cpp 
+  841  ./problem1 
+  842  g++ -o problem1 problem1.cpp 
+  843  ./problem1 
+  844  g++ -o problem1 problem1.cpp 
+  845  ./problem1 
+  846  g++ -o test test.cpp
+  847  /test
+  848  ./test
+  849  g++ -o test test.cpp
+  850  g++ -o problem1 problem1.cpp 
+  851  ./problem1 
+  852  g++ -o problem1 problem1.cpp 
+  853  ./problem1 
+  854  g++ -o problem1 problem1.cpp 
+  855  ./problem1 
+  856  g++ -o problem1 problem1.cpp 
+  857  ./problem1 
+  858  g++ -o problem1 problem1.cpp 
+  859  ./problem1 
+  860  g++ -o problem1 problem1.cpp 
+  861  ./problem1 
+  862  g++ -o problem1 problem1.cpp 
+  863  ./problem1 
+  864  g++ -o problem1 problem1.cpp 
+  865  ./problem1 
+  866  g++ -o problem1 problem1.cpp 
+  867  ./problem1 
+  868  g++ -o problem1 problem1.cpp 
+  869  ./problem1 
+  870  g++ -o problem1 problem1.cpp 
+  871  ./problem1 
+  872  g++ -o problem1 problem1.cpp 
+  873  ./problem1 
+  874  g++ -o problem1 problem1.cpp 
+  875  ./problem1 
+  876  g++ -o problem1 problem1.cpp 
+  877  ./problem1 
+  878  g++ -o problem1 problem1.cpp 
+  879  ./problem1 
+  880  g++ -o problem1 problem1.cpp 
+  881  ./problem1 
+  882  g++ -o problem1 problem1.cpp 
+  883  ./problem1 
+  884  g++ -o problem1 problem1.cpp 
+  885  ./problem1 
+  886  g++ -o problem1 problem1.cpp 
+  887  ./problem1 
+  888  g++ -o problem1 problem1.cpp 
+  889  ./problem1 
+  890  g++ -o problem1 problem1.cpp 
+  891  ./problem1 
+  892  g++ -o problem1 problem1.cpp 
+  893  ./problem1 
+  894  g++ -o problem1 problem1.cpp 
+  895  ./problem1 
+  896  g++ -o problem1 problem1.cpp 
+  897  ./problem1 
+  898  g++ -o problem1 problem1.cpp 
+  899  ./problem1 
+  900  g++ -o problem1 problem1.cpp 
+  901  ./problem1 
+  902  g++ -o problem1 problem1.cpp 
+  903  ./problem1 
+  904  g++ -o problem1 problem1.cpp 
+  905  ./problem1 
+  906  g++ -o problem1 problem1.cpp 
+  907  ./problem1 
+  908  g++ -o problem1 problem1.cpp 
+  909  ./problem1 
+  910  code
+  911  ls
+  912  sudo ./ipscanner -i ens33 -t 100
+  913  sudo ./ipscanner -i ens33 -t 1000
+  914  make
+  915  sudo ./ipscanner -i ens33 -t 1000
+  916  git rebase
+  917  iwlist ens33 scan
+  918  git sta
+  919  git status
+  920  iwconfig ens33 rts 250
+  921  iwconfig wlan0 rts 250
+  922  sudo wireshark 
+  923  git pull
+  924  git add .
+  925  git commit -m "221227 update"
+  926  git push
+  927  git pull
+  928  git clone https://github.com/jim2832/NTU_DS.git
+  929  ls
+  930  cd Desktop
+  931  ls
+  932  cd Bluetooth_Collision/
+  933  ls
+  934  tac problem1.
+  935  tac problem1.py
+  936  rev problem1.py
+  937  fold problem1.py
+  938  git pull
+  939  pwd
+  940  ls
+  941  cd Desktop/
+  942  cd Bluetooth_Collision/
+  943  ls
+  944  tac problem1.py
+  945  fold problem1.py
+  946  cat problem1.py
+  947  join problem1.py problem1.py
+  948  cd -
+  949  ls
+  950  cd 碩一上
+  951  ls
+  952  cd Bluetooth_Collision/
+  953  cd -
+  954  cd ..
+  955  ls
+  956  pwd
+  957  mkdir test
+  958  cd test
+  959  ls
+  960  touch test.cpp
+  961  ls
+  962  touch test2.cpp
+  963  cp test.cpp ../
+  964  rm ../test.cpp
+  965  cd /
+  966  ls
+  967  ls h*
+  968  ls *h*
+  969  ls
+  970  cd ~
+  971  ls
+  972  cd Desktop
+  973  ls
+  974  cd 朔一下
+  975  cd 碩一上
+  976  ls
+  977  cd Advanced_Computer_Networks/
+  978  ls
+  979  cd HW4
+  980  ls
+  981  cd TCPIP_HW4/
+  982  ls
+  983  ls *a
+  984  ls a*
+  985  ls *a*
+  986  ls ???
+  987  ls ????
+  988  ls ??????
+  989  ls
+  990  ls -r
+  991  ls -l
+  992  ls -t
+  993  ls -lrt
+  994  ls
+  995  git add .
+  996  git commit -m "230220 update"
+  997  git push
+  998  pwd
+  999  echo Hello worlds!
+ 1000  echo dsadasd               adsas
+ 1001  echo -n fsdfsf
+ 1002  ls
+ 1003  cat fileA
+ 1004  cat fileB
+ 1005  wc file A
+ 1006  wc fileA
+ 1007  wc -w fileA
+ 1008  wc -l fileA
+ 1009  wc -c fi*
+ 1010  ls
+ 1011  cut -c 4-5,10 abcdefghijklmno.txt 
+ 1012  cut --complement -c 4-5,10 abcdefghijklmno.txt 
+ 1013  ls
+ 1014  ls l*
+ 1015  cut -f2 fruits.txt
+ 1016  cut -f1 fruits.txt
+ 1017  cat fruits.txt 
+ 1018  cut -f2 -d fruits.txt 
+ 1019  cut -d " " -f2 fruits.txt 
+ 1020  alias rm='rm -I'
+ 1021  alias rm='rm'
+ 1022  alias cdNshow='cd; ls'
+ 1023  cdNshow 
+ 1024  cd -
+ 1025  pwd
+ 1026  basename ~/Desktop/碩一下/UNIX-system-programming/UNIX_L2
+ 1027  ls
+ 1028  basename pwd
+ 1029  basename `pwd`
+ 1030  fgrep -n --color "Hello" fileA
+ 1031  history 
+ 1032  sudo ./arp 00:11:22:33:44:55 192.168.190.128
+ 1033  echo dsadasd               adsas
+ 1034  pwd
+ 1035  ls
+ 1036  cat -n
+ 1037  cat CherryPie.txt 
+ 1038  cat -n CherryPie.txt 
+ 1039  wc -c < CherryPie.txt 
+ 1040  wc CherryPie.txt 
+ 1041  wc < CherryPie.txt 
+ 1042  paste -d, CherryPie.txt -< CherryPie.txt 
+ 1043  paste CherryPie.txt 
+ 1044  paste - - < CherryPie.txt 
+ 1045  ls
+ 1046  echo "output" > out.file
+ 1047  ls
+ 1048  cat out.file 
+ 1049  ehco "error msg" >& out.file
+ 1050  cat out.file 
+ 1051  ls
+ 1052  clear
+ 1053  ls
+ 1054  cd demofiles/
+ 1055  ;s
+ 1056  ls
+ 1057  cat square.
+ 1058  cat square.c
+ 1059  ./square.x
+ 1060  ./square
+ 1061  gcc -o square square.c
+ 1062  ./square
+ 1063  echo 25 > inputfile
+ 1064  ./square < inputfile 
+ 1065  ls
+ 1066  ls A*
+ 1067  wc -l
+ 1068  ls A* > tempfile
+ 1069  wc -l < tempfile
+ 1070  cat tempfile
+ 1071  ls
+ 1072  ls A*
+ 1073  wc -l A*
+ 1074  cat Aprog.c 
+ 1075  pwd -P
+ 1076  pwd
+ 1077  pwd -P > mypath
+ 1078  basename < mypath 
+ 1079  basename `pwd`
+ 1080  cat mypath 
+ 1081  open mypath 
+ 1082  cat tempfile
+ 1083  history > tempfile2
