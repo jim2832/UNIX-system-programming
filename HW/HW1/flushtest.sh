@@ -1,0 +1,20 @@
+# Line 1
+cd "$1"
+
+# Line 2
+ls | xargs -l fgrep /home/jim/PA1/allcards -e | cut -c 3-
+
+# Line 3-6
+ls | fgrep -n S | wc -l >> tempfile
+ls | fgrep -n D | wc -l >> tempfile
+ls | fgrep -n H | wc -l >> tempfile
+ls | fgrep -n C | wc -l >> tempfile
+
+# Line 7
+echo Flush! > flush_file
+
+# Line 8
+fgrep 5 tempfile > tempfile2 && paste tempfile2 flush_file | fgrep 5 | cut --complement -c 1-2
+
+# Line 9
+rm -f tempfile | rm -f tempfile2 | rm -f flush_file && cd ..
