@@ -1,0 +1,3 @@
+# this program uses the first 
+# argument as an exit code
+exit $1

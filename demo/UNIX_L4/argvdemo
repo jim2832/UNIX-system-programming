@@ -1,0 +1,17 @@
+#!/usr/bin/csh
+echo '$argv[*] also gives all arguments:  '$argv[*]
+echo '$* assumes the variable is argv:    '$*
+echo
+echo '$#argv gives the # of arguments:    '$#argv
+echo '$# assumes you mean $#argv:         '$#
+echo
+echo '$argv[1] gives the first argument:  '$argv[1]
+echo '$1 assumes you mean argv:           '$1
+echo
+echo 'To get last argument, you need argv:'$argv[$#]
+echo "To get the script's name, use "\$0:$0
+echo
+echo -n 'You can shift the argv array:       '
+shift argv; echo $argv
+echo -n 'A plain shift ASSUMES you mean argv:'
+shift; echo $argv
