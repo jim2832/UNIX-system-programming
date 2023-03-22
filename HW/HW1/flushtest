@@ -2,7 +2,7 @@
 cd "$1"
 
 # Line 2
-ls | xargs -l fgrep /home/jim/PA1/allcards -e | cut -c 3-
+ls | xargs -l fgrep ../allcards -e | cut -c 3-
 
 # Line 3-6
 ls | fgrep -n S | wc -l >> tempfile
