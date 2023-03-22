@@ -31,11 +31,10 @@ cd ____  <= Your job is to fill in the blank
 #PA1 lines #2-6
 #The next 5 lines are the same in PA2 as they were in PA1 (so copy these lines):
 ls ?? | xargs -l fgrep ../allcards -e | cut --complement -c1-2
-ls ?H 2> /dev/null | wc -l > ___tempfile1
-ls ?C 2> /dev/null | wc -l >> ___tempfile1
-ls ?D 2> /dev/null | wc -l >> ___tempfile1
-ls ?S 2> /dev/null | wc -l >> ___tempfile1
-
+ls ?H |& fgrep -v : | wc -l > ___tempfile1
+ls ?C |& fgrep -v : | wc -l >> ___tempfile1
+ls ?D |& fgrep -v : | wc -l >> ___tempfile1
+ls ?S |& fgrep -v : | wc -l >> ___tempfile1
 
 #PA1 lines #7-9
 #The next 3 lines printed "Flush!", but they needed a tempfile:
