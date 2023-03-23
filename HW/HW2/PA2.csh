@@ -7,7 +7,7 @@ ls ?C |& fgrep -v : | wc -l >> ___tempfile1
 ls ?D |& fgrep -v : | wc -l >> ___tempfile1
 ls ?S |& fgrep -v : | wc -l >> ___tempfile1
 
-fgrep -q 5 ___tempfile1 && echo Flush! && rm ___tempfile?
+fgrep -q 5 ___tempfile1 && echo Flush! && rm ___tempfile? || rm ___tempfile?
 
 
 
