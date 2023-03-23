@@ -55,6 +55,11 @@ _______________________________ echo Flush!  <= Your job is to fill in the blank
 #next two lines of your answer, you will create a file for just the faces (not
 #the suits). Moreover, the faces of the T, J, Q, K, and A will be converted into
 #the numbers 10, 11, 12, 13, and 14, respectively.
+# T -> 10
+# J -> 11
+# Q -> 12
+# K -> 13
+# A -> 14
 #
 #Not clear? Then consider the following example, where I have already run the
 #two lines to create the faces file:
