@@ -11,7 +11,7 @@ fgrep -q 5 ___tempfile1 && echo Flush! #&& rm ___tempfile? || rm ___tempfile?
 
 
 
- > faces   <= Fill in the blank
+ ls [23456789]? | cut --complement -c2-5 > faces
 
 
 ____________________________ >> faces  <= Fill in the blank
