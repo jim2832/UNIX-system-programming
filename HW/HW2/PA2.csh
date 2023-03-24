@@ -7,9 +7,7 @@ ls ?C |& fgrep -v : | wc -l >> ___tempfile1
 ls ?D |& fgrep -v : | wc -l >> ___tempfile1
 ls ?S |& fgrep -v : | wc -l >> ___tempfile1
 
-fgrep -q 5 ___tempfile1 && echo Flush! #&& rm ___tempfile? || rm ___tempfile?
-
-rm ___tempfile1 #這行之後要刪掉
+fgrep -q 5 ___tempfile1 && echo Flush!
 
 # ---------------------------------------------------------------------------------------
 
@@ -38,8 +36,14 @@ wc -l < facecounts | xargs expr 2 == > tempfile4 && fgrep -q 1 tempfile4 && fgre
 wc -l < facecounts | xargs expr 2 == > tempfile5 && fgrep -q 1 tempfile5 && fgrep -q 3 facecounts && echo Full house!
 
 #Straight
-wc -l < facecounts | xargs expr 5 == > tempfile6 && fgrep -q 1 tempfile6 && sort -g faces
+wc -l < facecounts | xargs expr 5 == > tempfile6 && fgrep -q 1 tempfile6 && expr `sort -g faces | tail -1` - `sort -g faces | head -1` | xargs expr 4 == > tempfile7 && fgrep -q 1 tempfile7 && echo Straight!
 
 # (14, 2, 3, 4, 5) Straight
+#wc -l < facecounts | xargs expr 5 == > tempfile8 && fgrep -q 1 tempfile8 && fgrep -q 14 faces && expr `sort -g faces | tail -2 | head -1` - `sort -g faces | head -1` | xargs expr 3 == > tempfile9 && fgrep -q 1 tempfile9 && echo Straight!
 
-rm faces; rm facecounts ; rm tempfile?
+
+#remove files
+rm faces
+rm facecounts
+rm tempfile?
+rm ___tempfile1
