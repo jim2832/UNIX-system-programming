@@ -39,7 +39,7 @@ wc -l < facecounts | xargs expr 2 == > tempfile5 && fgrep -q 1 tempfile5 && fgre
 wc -l < facecounts | xargs expr 5 == > tempfile6 && fgrep -q 1 tempfile6 && expr `sort -g faces | tail -1` - `sort -g faces | head -1` | xargs expr 4 == > tempfile7 && fgrep -q 1 tempfile7 && echo Straight!
 
 # (14, 2, 3, 4, 5) Straight
-#wc -l < facecounts | xargs expr 5 == > tempfile8 && fgrep -q 1 tempfile8 && fgrep -q 14 faces && expr `sort -g faces | tail -2 | head -1` - `sort -g faces | head -1` | xargs expr 3 == > tempfile9 && fgrep -q 1 tempfile9 && echo Straight!
+(wc -l < facecounts | xargs expr 5 == > tempfile8 && fgrep -q 1 tempfile8 && expr `sort -g faces | head -1` + `sort -g faces | head -2 | tail -1` + `sort -g faces | head -3 | tail -1` + `sort -g faces | head -4 | tail -1` | xargs expr 14 == > tempfile9 && fgrep -q 1 tempfile9) && echo Straight!
 
 
 #remove files
