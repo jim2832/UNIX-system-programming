@@ -1,0 +1,20 @@
+#!/bin/csh
+foreach name ($argv)
+   if ( -f $name ) then
+      echo -n "delete the file $name (y/n/q)? "
+   else
+      echo -n "delete the entire directory"\
+      "$name (y/n/q)? "
+   endif
+   set echo; set verbose
+   set ans = $<
+   unset echo; set verbose
+   switch ( $ans )
+      case n:
+         continue
+      case q:
+         exit
+      case y:
+         rm -rf $name
+   endsw
+end
