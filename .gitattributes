@@ -1,0 +1,4 @@
+*.c linguist-detectable=true
+*.cpp linguist-detectable=true
+*.shell linguist-detectable=true
+*.csh linguist-detectable=true
