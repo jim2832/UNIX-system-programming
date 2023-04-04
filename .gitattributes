@@ -2,3 +2,4 @@
 *.cpp linguist-detectable=true
 *.shell linguist-detectable=true
 *.csh linguist-detectable=true
+*.sh linguist-detectable=false
