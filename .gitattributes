@@ -1,3 +1,4 @@
+* linguist-vendored
 *.c linguist-vendored=false
 *.cpp linguist-vendored=false
 *.csh linguist-vendored=false
