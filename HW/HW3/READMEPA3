@@ -24,7 +24,7 @@ Here are some sample runs, assuming that your program works:
 
 There are some rules for the assignment:
 You can never use ";", except with breaksw or exit (ie, ";breaksw" or ";exit").
-You can never use "||", except on Line #9 (the card display line, see below).
+You can never use "||", except on Line #8 (the card display line, see below).
 You can never use "&&".
 You can never create any files.
 You must complete each line listed below in a single line of your script.
@@ -114,7 +114,7 @@ Line 13: switch ( `_1_ | _2_ | _3_ | _4_` )
          _1_ Print all of the elements of the array updated on Line 9.
 	 _2_ Put each element on its own line.
 	 _3_ Sort them so that the bigger numbers are at the top.
-	 _4_ Erase all spaces and newlines. This will create one of six cases,
+	 _4_ Erase all zeroes and newlines. This will create one of six cases,
 	     which you will deal with as follows:
 
 Lines 14-24: Copy the following lines, as-is:   
@@ -139,7 +139,10 @@ Line 25: To reach this line, the face cards must be all different.
 	   - A straight flush, when both of the above are true.
 	   - A junk hand. In this case, the score is based on what the highest
 	     card is.
-	     
+
+         Now that I understand what the students' questions about this line were,
+	   My answer is: This Line 25 can be left blank.
+              
 Line 26:set flush = "" <= Write this as-is.
 
 Line 27: if ( __1__ ) set flush = \ Flush!
