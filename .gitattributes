@@ -1,5 +1,4 @@
-* linguist-vendored
-*.c linguist-vendored=false
-*.cpp linguist-vendored=false
-*.csh linguist-vendored=false
-*.sh linguist-vendored=false
+*.c linguist-detectable=true
+*.cpp linguist-detectable=true
+*.sh linguist-detectable=true
+*.csh linguist-detectable=true
