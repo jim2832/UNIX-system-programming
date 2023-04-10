@@ -46,8 +46,7 @@ switch ( `echo $num_count | tr " " "\n" | sort -r | tr -d "0\n"` ) # line 13
             foreach idx (`seq 13 -1 1`) # line 35
                 if ( $num_count[$idx] == 1 ) then # line 36
                     # line 37 to end-5
-                    set max = $idx
-                    switch ( $max )
+                    switch ( $idx )
                         case 13:
                             echo Ace high! ;break
                         case 12:
@@ -64,18 +63,19 @@ switch ( `echo $num_count | tr " " "\n" | sort -r | tr -d "0\n"` ) # line 13
                             echo 8 high! ;break
                         case 6:
                             echo 7 high! ;break
-                        case 5:
-                            echo 6 high! ;break
-                        case 4:
-                            echo 5 high! ;break
-                        case 3:
-                            echo 4 high! ;break
-                        case 2:
-                            echo 3 high! ;break
-                        case 1:
-                            echo 2 high! ;break
+                        # case 5:
+                        #     echo 6 high! ;break
+                        # case 4:
+                        #     echo 5 high! ;break
+                        # case 3:
+                        #     echo 4 high! ;break
+                        # case 2:
+                        #     echo 3 high! ;break
+                        # case 1:
+                        #     echo 2 high! ;break
                     endsw
                 endif
             end
         endif
 endsw
+echo -n ""
