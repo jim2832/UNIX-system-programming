@@ -1,0 +1,2 @@
+#!/usr/bin/sed -fn
+s/s/@/p
