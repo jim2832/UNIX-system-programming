@@ -1,13 +1,14 @@
-#!/usr/bin/sed -f
+#!/usr/bin/sed -nf
 
 
 #The following lines print a pretty card (meaning that everything except for
 #the first 2 characters is printed). These lines also take those first two
 #characters and append them onto the end of the hold space.
 
-/.*/p
-#s/^\(..\)/\1/p
-#s/^\(..\).*/\1/ ; h
+#s/\(..\)..$/\1/
+h
+s/^..\(..\)/\1/
+p
 
 
 #The following line loads the hold space into the pattern space:
