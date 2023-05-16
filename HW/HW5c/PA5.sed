@@ -43,7 +43,8 @@ s/\n..\n\(.\).\n\1.\n\1.\n\1./Four of a kind/p
 
 #The following line uses "d" to stop processing the current input line. But
 #it only does so if the current line is not the last line of input.
-____
+$d
+
 
 #The following lines use "q" to quit processing input. But it only does so
 #if there is a flush or four-of-a-kind. In other words, it use the flag
@@ -51,6 +52,7 @@ ____
  .
  .    <= lines go here
  .
+
 
 #Possibilities: FullHouse, 3ofaKind, 1pair, 2pair, straight, nothing.
 #None of these possibilities care about the card suit. Therefore, the
@@ -61,10 +63,12 @@ ____
  .    <= lines go here
  .
 
+
 #The following line uses "b" to branch over the subsequent section. But
 #it only does so if there are not three identical cards.
 #Hint: you do know that the cards have been sorted. 
 ____
+
 
    #At this point, we know that we didn't get branched over. This
    #means that there are three identical cards. There are therefore
@@ -74,6 +78,7 @@ ____
    #The following line use "c" to print Three of a kind, otherwise:
    ____
    
+
 #The following line provide the label for the above branch-over code.
 ____
 
@@ -83,6 +88,7 @@ ____
 #it only does so if there are not two identical cards.
 ____
 
+
    #At this point, we know that we didn't get branched over. This
    #means that there are two identical cards. There are therefore
    #two possibilities: Two pair or One pair.
@@ -91,6 +97,7 @@ ____
    #The following line use "c" to print One pair, otherwise:
    ____
    
+
 #The following line provide the label for the above branch-over code.
 ____
 
