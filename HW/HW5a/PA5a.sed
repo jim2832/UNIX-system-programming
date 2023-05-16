@@ -6,7 +6,7 @@
 # - The rest of the line represents that character in a colorful way which is
 #   more suitable for pretty printing, but is less suitable for analyzing.
 
-#[2-9TJQKA][CDHS]
+
 
 #The following lines print a pretty card (meaning that everything except for
 #the first 2 characters is printed). These lines also take those first two
