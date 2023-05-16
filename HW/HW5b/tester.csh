@@ -1,5 +1,5 @@
 #!/usr/bin/csh
-@ f = seq 1 13 | sort -R | head -1
+@ f = `seq 1 13 | sort -R | head -1`
 
 ./topface $f
 switch ( $1 )
@@ -7,14 +7,14 @@ switch ( $1 )
       cat allcards | sort -R | sed -n '1,5p'
       exit
    case "[Ff]*":
-      @ suit = seq 1 13 40 | sort -R | head -1
-      cat allcards | sed -n 'suit,`expr $suit + 12`' | sort -R | sed 5q
+      @ suit = `seq 1 13 40 | sort -R | head -1`
+      cat allcards | sed -n "$suit,`expr $suit + 12`p" | sort -R | sed 5q
       exit
    case "[Ss]*":
-      @ f = seq 1 8 | sort -R | head -1
+      @ f = `seq 1 8 | sort -R | head -1`
       set h
       foreach i ( `seq 0 4`)
-         @ suit = seq 1 13 40 | sort -R | head -1
+         @ suit = `seq 1 13 40 | sort -R | head -1`
          set h = ( $h `expr $suit + $i + $f - 1` ) #有疑慮要不要-1
       end
       echo $h | tr " " "\n" | sort -R > nums
@@ -59,6 +59,11 @@ endsw
 
 # The first 5 lines of the "nums" file represent line numbers in the "allcards"
 # file. The following ________ will produce a sed program to print those lines.
-sed -n `head -5 nums|sed _______________________________` allcards
+sed -n `head -5 nums|sed ___` allcards
 
 rm nums
+# 23 -> 23s/\t..\t\(.*\)/\1/p
+# 48
+# 7
+# 21
+# 37
