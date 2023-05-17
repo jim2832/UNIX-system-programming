@@ -44,6 +44,7 @@ s/\n..\n\(.\).\n\1.\n\1.\n\1./Four of a kind/p
 
 #The following line uses "d" to stop processing the current input line. But
 #it only does so if the current line is not the last line of input.
+
 $!d
 
 
@@ -51,9 +52,9 @@ $!d
 #if there is a flush or four-of-a-kind. In other words, it use the flag
 #that might have been set by one of the three earlier "s" commands, above.
 
-/\n.\(.\)\n.\1\n.\1\n.\1\n.\1/q #flush
-/\n\(.\).\n\1.\n\1.\n\1.\n../q #four of a kind (kind 1)
-/\n..\n\(.\).\n\1.\n\1.\n\1./q #four of a kind (kind 2)
+
+/Flush/q
+/Four of a kind/q
 
 
 #Possibilities: FullHouse, 3ofaKind, 1pair, 2pair, straight, nothing.
@@ -68,21 +69,17 @@ s/\n\(.\)./\1/g
 #The following line uses "b" to branch over the subsequent section. But
 #it only does so if there are not three identical cards.
 #Hint: you do know that the cards have been sorted. 
-
 /\(.\)\1\{2\}/!b notthree
-
 
    #At this point, we know that we didn't get branched over. This
    #means that there are three identical cards. There are therefore
    #two possibilities: Full House or Three of a kind.
    #The following line use "c" to print Full house, when appropiate:
-
    /\(.\)\1.\(.\)\2/c\Full House
 
    #The following line use "c" to print Three of a kind, otherwise:
-
    /\(.\)\1\1/c\Three of a kind
-   
+
 
 #The following line provide the label for the above branch-over code.
 :notthree
@@ -118,17 +115,21 @@ s/$/_23456789T/
 
 
 #The following line handles the straight: A, 2, 3, 4, 5
+/A2345/c\Straight
 
 
 #The following line handles both: 9, T, J, Q, K and T, J, Q, K, A
 #Hint: Both "A" and "9" will sort earlier than 'J'.
+/[9A]JKQT/c\Straight
 
 
 #The following line handles: 8, 9, T, J, Q
+/89JQT/c\Straight
 
 
 #The following line handles: 7, 8, 9, T, J
+/789JT/c\Straight
 
 
 #The following line handles the "Nothing" case
-
+c\Nothing
