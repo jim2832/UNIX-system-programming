@@ -15,7 +15,7 @@ switch ( $1 )
       set h
       foreach i ( `seq 0 4`)
          @ suit = `seq 1 13 40 | sort -R | head -1`
-         set h = ( $h `expr $suit + $i + $f - 1` )
+         set h = ( $h `expr $suit + $i + $f` )
       end
       echo $h | tr " " "\n" | sort -R > nums
       breaksw
