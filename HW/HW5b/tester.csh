@@ -59,6 +59,6 @@ endsw
 
 # The first 5 lines of the "nums" file represent line numbers in the "allcards"
 # file. The following ________ will produce a sed program to print those lines.
-sed -n `head -5 nums|sed -n 's/.*/&s\/..\/\/p;/p'` allcards
+sed -n `head -5 nums|sed -n 's/.*/&p/p' | tr "\n" ";"` allcards
 
 rm nums
