@@ -1,3 +1,5 @@
+#!/usr/bin/tcsh
+cd $1
 ls ?? | xargs -l fgrep ../allcards -e | cut --complement -c1-2
 ls ?H |& fgrep -v : | wc -l > ___tempfile1
 ls ?C |& fgrep -v : | wc -l >> ___tempfile1

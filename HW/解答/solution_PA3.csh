@@ -2,9 +2,7 @@
 set fcounts = ( 0 0 0 0 0 0 0 0 0 0 0 0 0 )
 set scounts = ( 0 0 0 0 )
 set suits = ( `echo ♦♥♠♣ | grep -o .` )
-set hand = ( `seq 0 51 | sort -R | head -5 | sort -g` )
-echo $hand
-foreach i ( $hand )
+foreach i (`seq 0 51 | sort -R | tail -5 | sort -g`)
    @ f = 1 + $i % 13
    @ s = 1 + $i / 13
    echo -n \  `expr $f| grep 1.|cut -c2|tr 0-3 JQKA||expr 2 + $i % 13`$suits[$s]
