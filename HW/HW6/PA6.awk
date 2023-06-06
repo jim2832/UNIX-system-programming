@@ -1,33 +1,30 @@
 # Line 1
-BEGIN { DE = "Database Entry: "}
+BEGIN{ DE = "Database Entry: "}
 
-{
 # Line 2
-if ($0 ~ /^End of/) {next;}
+{if ($0 ~ /^End of/) {next}}
 
 # Line 3
-NR==448 { sub("Ship'\''s Database - ", "Database Entry: ");}
+/Ship's Database - Dilithium/{gsub(/Ship.*- /, "Database Entry: ")}
 
 # Line 4
-NR>=987 && NR<=989 { print }
-
-}
+NR==987{split($0, A, ": ") ; A[1]=DE A[1] ; DB[A[1]]="\n"A[2]"\n"}
+NR==989{split($0, A, ": ") ; A[1]=DE A[1] ; DB[A[1]]="\n"A[2]"\n"}
 
 # Line 5
-/Log, Day 113/{gsub("Log, Day", "Log - Mission Day")}
+/Log, Day 113/{sub("Log, Day", "Log - Mission Day")}
 
 # Line 6
-/, Supplemental/{gsub(", Supplemental", " - Mission Day 113, Supplemental")}
+/, Supplemental/{sub(", Supplemental", " - Mission Day 113, Supplemental")}
 
 # Line 7
+/^(Database|Captain's Log)/{K = $0 ; DB[K] = "" ; getline}
 
 # Line 8
+/^User/{K = ""}
 
 # Line 9
+{if (length(K) > 0) DB[K]=DB[K] "\n"$0}
 
 # Line 10
-END { for }
-
-# test
-awk '/Deep Space Hibernation/ {split($0, A, ": ");DB[A[1]] = A[2]}/Weapons System/{split($0, A, ": ");DB[A[1]] = A[2]} ; END{print DB}' QuantumQuest:_A_ChatGPT_Space_Adventure
-
+END {for(key in DB) print key":", ""DB[key],"\n------------------------"}
