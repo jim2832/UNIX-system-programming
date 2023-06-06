@@ -1,4 +1,4 @@
-Database Entry: Current Mission: 
+Database Entry: Current Mission:
 
 Mission: Trade Route: Nexus Prime to Nova Lumen
 
@@ -22,9 +22,8 @@ The estimated duration of the current mission is approximately 3 standard months
 Conclusion:
 As the Fortune Céleste embarks on its current mission, the crew embraces the challenges and opportunities that interstellar trade presents. With their skills, experience, and commitment to excellence, they endeavor to fulfill their mission objectives, enhance trade relations between Nexus Prime and Nova Lumen, and contribute to the ongoing prosperity of the Elysium system.
 
- 
 ------------------------
-Database Entry: Nova Lumen: 
+Database Entry: Nova Lumen:
 
 System: Elysium System
 Planet: Stellar Haven
@@ -51,13 +50,13 @@ Nova Lumen welcomes travelers and explorers with open arms. The city provides a 
 Stellar Haven and Aether:
 The moon of Stellar Haven, where Nova Lumen is situated, is bathed in the gentle radiance of Aether, the majestic gas giant it orbits. The awe-inspiring vistas of Aether's colossal presence in the sky provide a constant reminder of the vastness and beauty of the cosmos. The gas giant's gravitational influence shapes the lunar environment and contributes to the unique celestial phenomena witnessed from Nova Lumen, adding to the allure
 
- 
 ------------------------
-Database Entry: Deep Space Hibernation: 
+Database Entry: Deep Space Hibernation:
 The deep space hibernation system allows crew members to enter a state of suspended animation during extended voyages. By slowing down the metabolic processes and preserving vital functions, this system reduces resource consumption and minimizes the physical and psychological effects of long-duration space travel. It ensures crew member well-being and enables the trading barge to undertake extensive interstellar journeys efficiently.
- 
+
 ------------------------
-Database Entry: Quantum Data Processor (QDP): 
+Database Entry: Quantum Data Processor (QDP):
+
 Title: Quantum Data Processor (QDP)
 Overview:
 The Quantum Data Processor (QDP) is a crucial component of the QuantaCore Q-7000, responsible for processing and manipulating vast amounts of data using quantum algorithms. Built on the principles of quantum mechanics, the QDP harnesses the power of superposition and quantum parallelism to achieve exceptional computational capabilities. By exploiting quantum states and quantum gates, it enables complex computations that are beyond the reach of classical computers.
@@ -70,13 +69,13 @@ The QDP finds applications in a wide range of fields, including scientific resea
 
 Integration with QuantaCore Q-7000:
 As a core component of the QuantaCore Q-7000, the QDP collaborates closely with other system modules, such as the Quantum Stabilizer Unit (QSU) and Quantum Resource Allocation (QRA), to ensure efficient and reliable quantum computations. The QDP's capabilities are harnessed by various ship operations, contributing to navigation, analysis, decision-making, and resource optimization.
- 
+
 ------------------------
-Database Entry: Weapons System: 
+Database Entry: Weapons System:
 Although primarily designed for peaceful trading operations, the trading barge is equipped with a basic defensive weapons system. The system features lightweight plasma pulse emitters capable of emitting controlled bursts of energy to repel potential threats. Its primary purpose is to provide a deterrent and basic defense capability against minor spaceborne hazards or rogue elements encountered during trade missions. The weapons system is supported by a simple deflector shield system that provides a limited level of protection to the ship.
- 
+
 ------------------------
-Database Entry: Quantum Stabilizer Unit (QSU): 
+Database Entry: Quantum Stabilizer Unit (QSU):
 
 Title: Quantum Stabilizer Unit (QSU)
 Overview:
@@ -90,9 +89,8 @@ The unique properties of dilithium, coupled with the ingenious design of the QSU
 Impact and Advancements:
 Since its development, the Quantum Stabilizer Unit (QSU) has propelled the field of quantum computing forward. Continuous advancements in QSU technology have led to increased stability, longer coherence times, and improved fault tolerance. Scientists and engineers are tirelessly working to refine the design and functionality of the QSU, aiming to unlock unprecedented levels of control over dilithium and pave the way for the realization of complex quantum algorithms.
 
- 
 ------------------------
-Captain's Log - Mission Day 2: 
+Captain's Log - Mission Day 2:
 
 Star Date: 88-7681.2
 Location: Fortune Céleste, Bridge
@@ -117,9 +115,8 @@ Captain's Signature:
 [Captain's Name]
 Fortune Céleste
 
- 
 ------------------------
-Database Entry: Nexus Prime: 
+Database Entry: Nexus Prime:
 
 Location: Planet: Avalon | Star: Lyra Majoris
 
@@ -140,9 +137,8 @@ Beyond its commercial significance, Nexus Prime entices visitors with a myriad o
 
 Nexus Prime, with its thriving spaceport, dynamic economy, and multicultural ambiance, stands as a testament to the spirit of interstellar trade and exploration. It beckons travelers to embark on unforgettable journeys and seize the vast opportunities that await within the ever-expanding reaches of the galaxy.
 
- 
 ------------------------
-Database Entry: Quantum Computing: 
+Database Entry: Quantum Computing:
 
 Title: Quantum Computing
 Overview:
@@ -160,9 +156,9 @@ The Quantum Stabilizer Unit ensures the integrity and stability of entanglement,
 Future Prospects:
 As quantum computing continues to advance, the development of more sophisticated and efficient Quantum Stabilizer Units becomes essential. Enhancements in QSU technology will contribute to the scalability, robustness, and practicality of quantum computers, bringing us closer to solving complex problems in diverse fields such as cryptography, optimization, material science, and drug discovery.
 
- 
 ------------------------
-Database Entry: Quantum Encryption and Communication (QEC): 
+Database Entry: Quantum Encryption and Communication (QEC):
+
 Title: Quantum Encryption and Communication (QEC)
 Overview:
 Quantum Encryption and Communication (QEC) is a vital component of the QuantaCore Q-7000, responsible for establishing secure quantum communication channels and safeguarding sensitive data transmission. By leveraging the unique properties of quantum mechanics, QEC provides robust encryption techniques that are resistant to interception and unauthorized access.
@@ -175,9 +171,9 @@ QEC finds applications in secure communication within the ship, inter-ship commu
 
 Integration with QuantaCore Q-7000:
 QEC seamlessly integrates with the other modules of the QuantaCore Q-7000, such as the Quantum Stabilizer Unit (QSU) and Quantum Data Processor (QDP), to provide secure and efficient quantum communication capabilities. By incorporating QEC into the ship's communication infrastructure, the QuantaCore Q-7000 ensures the confidentiality and reliability of information exchange, bolstering the ship's operational effectiveness.
- 
+
 ------------------------
-Database Entry: Dilithium: 
+Database Entry: Dilithium:
 
 Entry: Dilithium
 
@@ -210,9 +206,8 @@ Disclaimer: The ship's database provides general information about dilithium. Fo
 
 This database entry serves as a starting point for the player's exploration into the properties and applications of dilithium, establishing the link between the material and its use in quantum computing. The reference to the ship's quantum computer entry encourages further investigation, leading the player to delve deeper into the entanglement capabilities of dilithium and its potential role in breaking the time loop.
 
- 
 ------------------------
-Database Entry: Quantum Entanglement: 
+Database Entry: Quantum Entanglement:
 
 Title: Quantum Entanglement
 Overview:
@@ -227,18 +222,19 @@ Quantum entanglement exhibits several remarkable properties, including non-local
 Role of Dilithium:
 In the context of quantum physics, dilithium emerges as a crucial material that enables stable entanglement. Dilithium possesses unique quantum properties that make it particularly well-suited for entanglement applications. Its inherent stability and coherence allow for prolonged entanglement interactions, enhancing the fidelity and durability of quantum information processing. Additionally, dilithium's exceptional properties enable the realization of powerful quantum technologies, including quantum computers.
 
- 
 ------------------------
-Database Entry: Propulsion System: 
+Database Entry: Propulsion System:
+
 The Propulsion System is the primary ship system responsible for generating and controlling thrust to propel the spacecraft through space. It employs advanced propulsion technologies, such as ion engines, plasma thrusters, or warp drives, to provide efficient acceleration, deceleration, and maneuvering capabilities. The system utilizes the QuantaCore Q-7000 to optimize engine performance, trajectory calculations, and fuel efficiency, enabling precise and energy-saving propulsion operations.
- 
+
 ------------------------
-Database Entry: Payload Systems: 
+Database Entry: Payload Systems:
+
 The Payload Systems are specialized subsystems or equipment tailored to the specific mission objectives of the spacecraft. These systems encompass scientific instruments, communication payloads, robotic arms, or other specialized equipment designed to accomplish the mission goals. The QuantaCore Q-7000 may be utilized in certain payload systems, leveraging its advanced computational capabilities and quantum algorithms for data processing, analysis, or encryption, enabling enhanced scientific research, communication capabilities, or precise payload operations.
 
- 
 ------------------------
-Database Entry: Ship Systems: 
+Database Entry: Ship Systems:
+
 Title: Ship Systems Overview
 Overview:
 The ship systems are a collection of critical components and subsystems that enable the functionality and operation of the spacecraft. These systems work together to support various aspects of the ship's mission, ensuring crew safety, propulsion, navigation, and overall operational efficiency. Each system is designed to fulfill specific functions and contribute to the seamless operation of the ship.
@@ -270,13 +266,14 @@ The Payload Systems are specific subsystems or equipment dedicated to the primar
 Integration and Interconnectivity:
 The ship systems are intricately interconnected, allowing data exchange, power distribution, and coordinated operation. These systems collaborate to ensure the ship's overall functionality, crew safety, and mission success.
 
- 
 ------------------------
-Database Entry: Command and Control System: 
+Database Entry: Command and Control System:
+
 The Command and Control System serves as the central hub for monitoring, controlling, and coordinating ship operations. It integrates data from various ship systems, displays critical information to the crew, and facilitates efficient command execution. The QuantaCore Q-7000 plays a pivotal role in processing and analyzing vast amounts of data, executing complex algorithms for system diagnostics, predictive maintenance, and real-time decision-making, ensuring seamless coordination and effective management of spacecraft functions.
- 
+
 ------------------------
-Captain's Log - Mission Day 113, Supplemental 2: 
+Captain's Log - Mission Day 113, Supplemental 2:
+
 Star Date: 88-7793.5
 
 We have successfully landed the Fortune Céleste on the surface of the enigmatic asteroid. The crew is now busy making the necessary preparations to venture out into the vast emptiness of space, a realm that is both awe-inspiring and treacherous. It is a momentous occasion, and the significance of our mission weighs heavily on us all.
@@ -296,9 +293,9 @@ As we prepare to step foot onto the asteroid's surface, a mix of excitement and 
 I am proud of my crew and their unwavering dedication to this extraordinary mission. Together, we shall explore, document, and seek to unravel the secrets of this alien world, all while carrying the spirit of trade and discovery that has driven us throughout our journey.
 
 Captain Jonathan Anderson, signing off.
- 
+
 ------------------------
-Database Entry: Crew Manifest: 
+Database Entry: Crew Manifest:
 
 Crew Manifest
 
@@ -328,21 +325,24 @@ The crew of the Fortune Céleste consists of highly skilled individuals who ensu
 
 Together, this competent and dedicated crew ensures the successful and efficient trading voyages of the Fortune Céleste, with Captain Marcus Thompson leading the team towards new frontiers and lucrative business opportunities.
 
- 
 ------------------------
-Database Entry: Navigation and Guidance System: 
+Database Entry: Navigation and Guidance System:
+
 The Navigation and Guidance System is a complex ship system that utilizes sensors, star trackers, and advanced algorithms to determine the spacecraft's position, velocity, and orientation. It employs the QuantaCore Q-7000 to enhance navigation accuracy through quantum-assisted calculations, allowing for precise course corrections, optimal trajectory planning, and improved positional awareness, even in challenging space environments.
- 
+
 ------------------------
-Database Entry: Power Generation and Distribution: 
+Database Entry: Power Generation and Distribution:
+
 The Power Generation and Distribution system is responsible for generating electrical power and efficiently distributing it to various ship systems. It utilizes advanced energy sources, such as fusion reactors, solar panels, or antimatter reactors, to generate sustainable and high-capacity power. The QuantaCore Q-7000 plays a critical role in power management, regulating and optimizing the distribution of power throughout the ship, ensuring optimal performance and power availability to all subsystems.
- 
+
 ------------------------
-Database Entry: Life Support System: 
+Database Entry: Life Support System:
+
 The Life Support System is a crucial ship system responsible for maintaining a habitable environment within the spacecraft. It regulates and sustains breathable air, temperature, humidity, and waste management to ensure the well-being and survival of the crew members. It incorporates advanced filtration systems, air circulation mechanisms, and waste disposal units to maintain a clean and healthy living space for the crew throughout their mission.
- 
+
 ------------------------
-Captain's Log - Mission Day 113, Supplemental: 
+Captain's Log - Mission Day 113, Supplemental:
+
 Star Date: 88-7793.5
 
 Upon closer inspection of the mysterious asteroid, I am thrilled to report a remarkable discovery! The surface reveals the presence of a cluster of ancient structures, which, based on preliminary analysis, unquestionably signify extraterrestrial origin. The composition of the asteroid's crust suggests that it is a fragment from a planet that experienced a catastrophic event millions of years ago, leaving behind these intriguing remnants.
@@ -361,13 +361,14 @@ It is with great excitement and a sense of profound duty that I conclude this su
 
 Captain Jonathan Anderson, signing off.
 
- 
 ------------------------
-Database Entry: Environmental Monitoring System: 
+Database Entry: Environmental Monitoring System:
+
 The Environmental Monitoring System continuously monitors the ship's environmental conditions, including atmospheric composition, radiation levels, temperature, and pressure. It utilizes a network of sensors, detectors, and data analysis algorithms to provide real-time updates on the ship's environment. The QuantaCore Q-7000 assists in quantum-enhanced analysis and pattern recognition, enabling rapid detection of anomalies, early warning systems, and adaptive response mechanisms to ensure crew safety and optimal operating conditions.
- 
+
 ------------------------
-Database Entry: Quantum Sensor Integration (QSI): 
+Database Entry: Quantum Sensor Integration (QSI):
+
 Title: Quantum Sensor Integration (QSI)
 Overview:
 Quantum Sensor Integration (QSI) is an integral module of the QuantaCore Q-7000, designed to harness the unique properties of quantum mechanics for advanced sensing and monitoring capabilities. By utilizing quantum effects and principles, the QSI enhances the ship's situational awareness, detection capabilities, and precision measurements.
@@ -380,9 +381,9 @@ The QSI finds applications in diverse areas, including astronomy, astrophysics, 
 
 Integration with QuantaCore Q-7000:
 The QSI collaborates seamlessly with other modules of the QuantaCore Q-7000, such as the Quantum Data Processor (QDP) and Quantum Stabilizer Unit (QSU), to facilitate data acquisition, processing, and analysis. The QSI's enhanced sensing capabilities enrich the ship's data collection, augmenting decision-making processes and providing valuable insights for scientific exploration and navigation.
- 
+
 ------------------------
-Database Entry: QuantaCore Q-7000: 
+Database Entry: QuantaCore Q-7000:
 
 Title: QuantaCore Q-7000
 Overview:
@@ -405,9 +406,8 @@ The QuantaCore Q-7000 forms the computational backbone of the ship, contributing
 
 The QuantaCore Q-7000 represents a significant leap forward in ship technology, harnessing the power of quantum computing to revolutionize ship operations and open new frontiers in exploration and discovery.
 
- 
 ------------------------
-Captain's Log - Mission Day 113: 
+Captain's Log - Mission Day 113:
 
 Star Date: 88-7793.4
 
@@ -424,9 +424,9 @@ The journey thus far has been filled with unexpected twists and turns, but it's 
 Captain Jonas Reynolds,
 Out.
 
- 
 ------------------------
-Database Entry: Quantum Resource Allocation (QRA): 
+Database Entry: Quantum Resource Allocation (QRA):
+
 Title: Quantum Resource Allocation (QRA)
 Overview:
 Quantum Resource Allocation (QRA) is a dedicated module within the QuantaCore Q-7000, responsible for managing and optimizing quantum resources to maximize the system's efficiency and performance. By intelligently allocating computing resources and configuring quantum entanglement configurations, QRA enhances the overall capabilities and reliability of the quantum computing system.
@@ -440,9 +440,8 @@ QRA plays a crucial role in various ship operations, including navigational calc
 Integration with QuantaCore Q-7000:
 QRA seamlessly integrates with other modules of the QuantaCore Q-7000, such as the Quantum Data Processor (QDP) and Quantum Stabilizer Unit (QSU), to synchronize resource allocation with quantum computations. By collaborating with these modules, QRA ensures a balanced allocation of resources, avoiding bottlenecks and maximizing the overall performance and efficiency of the quantum computing system.
 
- 
 ------------------------
-Captain's Log - Mission Day 1: 
+Captain's Log - Mission Day 1:
 
 Star Date: 88-7681.1
 Location: Nexus Prime, Docking Bay 7
@@ -469,9 +468,9 @@ Captain's Signature:
 [Captain's Name]
 Fortune Céleste
 
- 
 ------------------------
-Database Entry: Communication System: 
+Database Entry: Communication System:
+
 The Communication System enables reliable and secure communication between the spacecraft and external entities. It employs advanced antenna systems, transmitters, and receivers to transmit and receive data, voice communication, and mission-critical information. The system leverages the QuantaCore Q-7000's quantum properties to ensure encrypted and secure communication channels, safeguarding sensitive data from interception or tampering, enabling secure and confidential communications between the spacecraft and ground bases or other entities.
- 
+
 ------------------------

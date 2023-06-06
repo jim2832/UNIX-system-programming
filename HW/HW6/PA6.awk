@@ -8,8 +8,7 @@ BEGIN{ DE = "Database Entry: "}
 /Ship's Database - Dilithium/{gsub(/Ship.*- /, "Database Entry: ")}
 
 # Line 4
-NR==987{split($0, A, ": ") ; A[1]=DE A[1] ; DB[A[1]]="\n"A[2]"\n"}
-NR==989{split($0, A, ": ") ; A[1]=DE A[1] ; DB[A[1]]="\n"A[2]"\n"}
+NR==987{split($0, A, ": ") ; A[1]=DE A[1] ; DB[A[1]]=A[2]"\n"} NR==989{split($0, A, ": ") ; A[1]=DE A[1] ; DB[A[1]]=A[2]"\n"}
 
 # Line 5
 /Log, Day 113/{sub("Log, Day", "Log - Mission Day")}
@@ -27,4 +26,4 @@ NR==989{split($0, A, ": ") ; A[1]=DE A[1] ; DB[A[1]]="\n"A[2]"\n"}
 {if (length(K) > 0) DB[K]=DB[K] "\n"$0}
 
 # Line 10
-END {for(key in DB) print key":", ""DB[key],"\n------------------------"}
+END {for(key in DB) {print key":" ; print DB[key] ; print "------------------------"}}
