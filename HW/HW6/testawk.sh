@@ -1,4 +1,4 @@
-cat QuantumQuest:_A_ChatGPT_Space_Adventure | \
+cat QuantumQuest_A_ChatGPT_Space_Adventure | \
     awk -f PA6.awk | uniq | \
     sed 's/[[]Insert Ship Name]/Fortune Céleste/' > DatabaseAndLog
 
